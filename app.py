@@ -8,7 +8,7 @@ def main():
 
     # Entrada de dados: número de variáveis e restrições
     st.sidebar.header("Configuração do Problema")
-    num_vars = st.sidebar.number_input("Número de variáveis (produtos)", min_value=1, value=3)
+    num_vars = st.sidebar.number_input("Número de variáveis", min_value=1, value=3)
     num_constraints = st.sidebar.number_input("Número de restrições", min_value=1, value=2)
 
     # Configuração da função objetivo
