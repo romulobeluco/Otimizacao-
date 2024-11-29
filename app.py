@@ -3,7 +3,7 @@ import pandas as pd
 from main import SimplexSolver
 
 def main():
-    st.title("Resolução de Problemas de Programação Linear com Simplex")
+    st.title("Resolução de Problemas  com Simplex")
     st.subheader("Ferramenta para resolver problemas de maximização")
 
     # Entrada de dados: número de variáveis e restrições
